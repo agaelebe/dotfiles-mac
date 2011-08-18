@@ -1,0 +1,3 @@
+.rvmrc
+autotest/discover.rb
+.DS_Store
