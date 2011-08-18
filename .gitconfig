@@ -1,20 +1,25 @@
 [user]
-	name = Sven Kraeuter | 5v3n
-	email = sven.kraeuter@gmx.net
+ name = Hugo Borges - agaelebe
+ email = agaelebe@gmail.com
 [core]
-	excludesfile = /Users/svenkrauter/.gitignore
-	autocrlf = input
-	editor = mate -w
-
+ excludesfile = /Users/svenkrauter/.gitignore
+ autocrlf = input
+ editor = vim -f
 [alias]
  co = checkout
  st = status
  ci = commit
  rc = rebase --continue
  pr = pull --rebase
+ br = branch
+ cm = commit
 [color]
  status = auto
  diff = auto
  branch = auto
 [merge]
  tool = opendiff
+[apply]
+ whitespace = fix
+[push]
+ default = current
