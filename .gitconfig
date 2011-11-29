@@ -2,7 +2,7 @@
  name = Hugo Borges - agaelebe
  email = agaelebe@gmail.com
 [core]
- excludesfile = /Users/svenkrauter/.gitignore
+ excludesfile = /Users/hlb/.gitignore
  autocrlf = input
  editor = vim -f
 [alias]
