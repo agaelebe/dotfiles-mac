@@ -3,6 +3,8 @@ export EDITOR='mate -w'
 
 export CLICOLOR=1
 
+alias ls="ls -G"
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session.
 
 function parse_git_branch {
